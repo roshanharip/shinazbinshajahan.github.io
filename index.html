@@ -6,11 +6,12 @@
     <meta name="author" content="Adtile">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/responsive-nav.js"></script>
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <link rel="stylesheet" href="css/ie.css">
-    <![endif]-->
-    <script src="js/responsive-nav.js"></script>
+    <![endif]--> 
   </head>
   <body>
     <header>
@@ -23,7 +24,7 @@
           <li class="menu-item active"><a href="#home" data-scroll>Home</a></li>
           <li class="menu-item"><a href="#about" data-scroll>About</a></li>
           <li class="menu-item"><a href="#projects" data-scroll>Projects</a></li>
-          <li class="menu-item"><a href="#blog" data-scroll>Contact</a></li>
+          <li class="menu-item"><a href="#contact" data-scroll>Contact</a></li>
           <li class="menu-item"><a href="http://www.google.com" target="_blank">Google</a></li>
         </ul>
       </nav>
@@ -41,12 +42,53 @@
       <h1>Projects</h1>
     </section>
 
-    <section id="blog">
-      <h1>Contact</h1>
+    <section id="contact">
+      
+      <div class="container">
+        <div class="contact-parent">
+           <div class="contact-child child1">
+              <p>
+                 <i class="fas fa-map-marker-alt"></i> Address <br />
+                 <span> Ash Lane 110
+                 <br />
+                 London, UK
+                 </span>
+              </p>
+              <p>
+                 <i class="fas fa-phone-alt"></i> Let's Talk <br />
+                 <span> 0787878787</span>
+              </p>
+              <p>
+                 <i class=" far fa-envelope"></i> General Support <br />
+                 <span>contact@example.com</span>
+              </p>
+           </div>
+           <div class="contact-child child2">
+              <div class="inside-contact">
+                 <h2>Contact Us</h2>
+                 <h3>
+                    <span id="confirm">
+                 </h3>
+                 <p>Name *</p>
+                 <input id="txt_name" type="text" Required="required">
+                 <p>Email *</p>
+                 <input id="txt_email" type="text" Required="required">
+                 <p>Phone *</p>
+                 <input id="txt_phone" type="text" Required="required">
+                 <p>Subject *</p>
+                 <input id="txt_subject" type="text" Required="required">
+                 <p>Message *</p>
+                 <textarea id="txt_message" rows="4" cols="20" Required="required" ></textarea>
+                 <input type="submit" id="btn_send" value="SEND">
+              </div>
+           </div>
+        </div>
+     </div>
     </section>
 
     <script src="js/script1.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/fixed-responsive-nav.js"></script>
-  </body>
+    
+     </body>
 </html>
