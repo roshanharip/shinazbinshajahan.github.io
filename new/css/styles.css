@@ -38,7 +38,7 @@ section {
 }
 .nav-links a {
  color: rgb(134, 0, 152);
- text-shadow: 2px 2px 2px white;
+ text-shadow: 1px 1px 10px white;
  padding: 2px;
 
 }
