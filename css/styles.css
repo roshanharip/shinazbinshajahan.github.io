@@ -1,3 +1,4 @@
+
 .contact-parent{
   background: #fff;
   display:flex;
@@ -235,7 +236,7 @@
  --------------------------------------------- */
  
  header {
-   background: #6600CC;
+   background: #9df2fd;
    position: fixed;
    z-index: 3;
    width: 100%;
